@@ -6,12 +6,23 @@ h1 {
   display: flex;
   flex-direction: column;
   width: 100%;
+  background: #F2F2F2;
 }
 
 .navWrapper {
   display: flex;
   justify-content: flex-start;
   width: 100%;
+  border-bottom: 1px solid darkgray;
+}
+
+.navItem {
+  background: darkgray;
+  padding: 20px;
+  margin-right: 4px;
+  margin-bottom: 10px;
+  width: 100px;
+  text-align: center;
 }
 
 .contentWrapper {
@@ -21,8 +32,84 @@ h1 {
 
 .sideMenuWrapper {
   width: 20%;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid darkgray;
+}
+
+.profileSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.petImage {
+  width: 150px;
+  height: 100px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.menuSection {
+  border-top: 1px solid darkgray;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menuItem {
+  padding: 20px 0;
+}
+
+.boldItem {
+  font-weight: bold;
 }
 
 .mainContentWrapper {
   width: 80%;
+}
+
+.topSection {
+  width: 100%;
+  margin: 20px;
+}
+
+.headerImage {
+  width: 250px;
+  height: 200px;
+  margin-right: 20px;
+  float: left;
+  border-radius: 8px;
+}
+
+.headingText {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bottomSection {
+ margin: 40px 20px 20px 20px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.bottomHeader {
+  font-weight: bold;
+}
+
+.bottomImagesWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.bottomImage {
+  width: 300px;
+  height: 200px;
+  margin: 15px;
+  border-radius: 8px;
 }
